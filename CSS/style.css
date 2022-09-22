@@ -80,7 +80,7 @@ main{
     flex-wrap: wrap;
 }
 
-.resume h2{
+main h2{
     font-size: 64px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
     padding-left: 50px;
@@ -100,7 +100,7 @@ main{
     font-size: 25px;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-left: 200px;
+    margin-left: 171px;
     margin-right: 185px;
     margin-top: 25px;
     padding-left: 40px;
@@ -122,8 +122,9 @@ main{
     flex-wrap: wrap;
     justify-content: space-between; */
     /* width: 100%; */
-
 }
+
+
   .card {
     border-color: var(--hot);
     border-left-style: solid;
@@ -189,7 +190,7 @@ main{
     margin-top: 30px;
     flex-wrap: wrap;
     margin-right: 435px;
-    margin-left: 175px;
+    margin-left: 120px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
