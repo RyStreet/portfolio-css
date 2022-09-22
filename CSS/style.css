@@ -118,22 +118,28 @@ main{
     color: var(--lav);
     background-color: var(--dark);
     /* padding: 20px; */
-    display: flex;
+    display: inline-block;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: space-between; */
+    /* width: 100%; */
 
 }
-
   .card {
+    border-color: var(--hot);
+    border-left-style: solid;
+    margin-left: 400px;
+    border-radius: 20px;
+    border-width: 5px;
+  }
+  .cardtop{
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
     padding: 10px;
-    flex: 0 0 200px;
-    margin: 50px;
+    margin: 20px;
+    display: inline-block;
   }
-  
+
   .card header {
     padding: 10px;
     text-align: left;
@@ -145,10 +151,20 @@ main{
     padding: 10px;
   }
   
-  .card img {
-    width: 100%;
+  .topthree img {
+    width: 300px;
+    height: 400px;
   }
-  
+
+.bottomtwo img{
+    width: 400px;
+    height: 400px;
+
+} 
+
+.bottomtwo{
+    margin-left: 80px;
+}
 /* 
   #big-project{
     height: 600px;
