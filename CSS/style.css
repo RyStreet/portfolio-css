@@ -100,7 +100,6 @@ main{
     font-size: 25px;
     flex-wrap: wrap;
     justify-content: space-around;
-
     margin-left: 200px;
     margin-right: 185px;
     margin-top: 25px;
@@ -149,6 +148,7 @@ main{
   .card img {
     width: 100%;
   }
+  
 /* 
   #big-project{
     height: 600px;
@@ -172,7 +172,8 @@ main{
     border-color: hotpink;
     margin-top: 30px;
     flex-wrap: wrap;
-    margin-right: 535px;
+    margin-right: 435px;
+    margin-left: 175px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
