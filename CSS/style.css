@@ -195,6 +195,9 @@ main h2{
 @media screen and (max-width: 1200px) {
     .card{
         margin-left: 20px;
+        }
+    .card img{
+        width: fit-content;
     }
     .bottomtwo{
         margin-left: 0;
