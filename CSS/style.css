@@ -60,9 +60,10 @@ body {
     width: 100%;
     position: relative;
     background-size: cover;
-    /* background-position: center; */
-    /* text-align: center; */
+    background-position: center; */
+    text-align: center;
 }
+
 
 .bottom-right{
     font-style: italic;
@@ -89,12 +90,13 @@ main h2{
 
 .about {
     width: 100%;
-    height: 200px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
     margin-top: 20px;
     }
+
+   
 
 .about p {
     font-size: 25px;
@@ -112,6 +114,20 @@ main h2{
     border-color: var(--hot);
 }
 
+@media screen and (max-width: 1200px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+                
+    }
+    .about h2{
+        text-align: left;
+    }
+    .about p{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    }
 
 .work {
     flex: 4;
@@ -124,6 +140,15 @@ main h2{
     /* width: 100%; */
 }
 
+@media screen and (max-width: 1200px) {
+    .work {
+        display: flex;
+        flex-direction: column;
+    }
+    .work h2{
+        text-align: left;
+    }
+    }
 
   .card {
     border-color: var(--hot);
@@ -166,12 +191,18 @@ main h2{
 .bottomtwo{
     margin-left: 80px;
 }
-/* 
-  #big-project{
-    height: 600px;
-    width: 50vw;
-  } */
 
+@media screen and (max-width: 1200px) {
+    .card{
+        margin-left: 20px;
+    }
+    .bottomtwo{
+        margin-left: 0;
+    }
+    .bottomtwo img{
+        width: 300px;
+    } 
+}
 
 
 .contact{
@@ -203,20 +234,15 @@ main h2{
 
    }
 
-
-
- /* .contact nav ul li{ 
-    padding-top: 15px;
-    margin-right: 20px;
-    padding-right: 10px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 32px;
-    list-style-type: none;
-    margin-left: 25px;
-    display: inline-block; 
-} 
-
- .contact nav ul li { 
-     list-style-type: none;
-    margin-left: 25px;
+   @media screen and (max-width: 1200px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact h2{
+        text-align: left;
+    }
+    .contact ul{
+        margin-left: 20px;
+    }
+    
