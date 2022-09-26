@@ -18,4 +18,8 @@ In Repo.
 CREDITS
 N/A
 
+![image](https://user-images.githubusercontent.com/112584082/192368475-f26f6849-51e5-4023-9f21-11c7218ca578.png)
+![image](https://user-images.githubusercontent.com/112584082/192368522-b792d331-93ed-4b65-87f3-47f2612f042d.png)
+
+
 
