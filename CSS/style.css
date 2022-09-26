@@ -212,19 +212,24 @@ main h2{
     padding: 10px;
   }
   
-  .topthree img {
+  .toptwo img {
     width: 300px;
     height: 400px;
   }
 
+  #pr-one img{
+    height: 600px;
+    width: 500px;
+  }
+
 .bottomtwo img{
-    width: 400px;
+    width: 300px;
     height: 400px;
 
 } 
 
 .bottomtwo{
-    margin-left: 80px;
+    /* margin-left: 80px; */
 }
 
 @media screen and (max-width: 1200px) {
@@ -244,11 +249,16 @@ main h2{
     }  */
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 610px) {
     .card img{
         width: 150px;
         height: 200px;
        }
+    #pr-one img{
+        width: 200px;
+        height: 250px;
+        margin: 0;
+    }
     
 }
 
