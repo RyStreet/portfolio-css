@@ -20,6 +20,7 @@ body {
     width: 100%;
 }
 
+
 .header {
     background-color: var(--lav);
     color: var(--dark);
@@ -54,6 +55,11 @@ body {
     margin-left: 15px;
 }
 
+.header nav ul li:hover{
+    background-color: var(--dark-p);
+    border-radius: 0%;
+}
+
 .imgcontainer{
     position: relative;
     top: 0;
@@ -77,6 +83,14 @@ body {
     top: 50px;
     opacity: 85%;
     } 
+
+@media screen and (max-width: 400px) {
+    .image2{
+        left: 0;
+    }
+
+    }
+
 
 .bottom-right{
     font-style: italic;
@@ -248,7 +262,7 @@ main h2{
     margin-top: 30px;
     /* flex-wrap: wrap; */
     /* margin-right: 435px; */
-    margin-left: 120px;
+    margin-left: 398px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -258,10 +272,14 @@ main h2{
     font-size: 32px;
     padding-right: 50px;
     padding-left: 30px;
-
    }
 
-   @media screen and (max-width: 725px) {
+.contact nav ul li:hover{
+    background-color: var(--lav);
+    color: var(--white);
+}
+
+   @media screen and (max-width: 1200px) {
     .contact {
         display: flex;
         flex-direction: column;
@@ -278,4 +296,4 @@ main h2{
         flex-direction: column;
         padding-right: 0;
     }
-    
+}
